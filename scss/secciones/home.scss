@@ -1,34 +1,22 @@
-h1 {
-    margin: 50px 0 50px 0;
-    text-align: center;
-}
-
-.h1 {
-    background-color: orange;
-    color: white;
-}
-
 .header-index {
     display: flex;
     justify-content: center;
     align-items: center;
-}
+    flex-direction: column;
 
-.img-principal-index {
-    width: 80%;
-    height: 600px;
-    overflow: hidden;
-    margin-top: 100px;
-}
+    .h1 {
+        background-color: black;
+        color: white;
+        margin: 50px 0 50px 0;
+        text-align: center;
+    }
 
-.main-index {
-    margin: 20px;
-    padding: 0 0 0 0;
-    justify-content: center;
-    width: 819.6px;
-    height: 400px;
-    display: flex;
-    align-items: center;
+    .img-principal-index {
+        width: 80%;
+        height: 600px;
+        overflow: hidden;
+        margin-top: 100px;
+    }
 }
 
 .sec-main {
@@ -37,60 +25,67 @@ h1 {
     align-items: center;
     margin-top: 100px;
     margin-bottom: 100px;
-    background-color: orange;
-}
 
-.grilla {
-    display: grid;
-    justify-content: center;
-    align-items: center;
-    grid-template-columns: repeat(3, 33%);
-    grid-template-rows: repeat(2, 1fr);
-    height: 2fr;
-    width: 800px;
-    grid-template-areas:
-        "header header section"
-        "article aside aside"
-    ;
-}
+    .main-index {
+        margin: 20px;
+        padding: 0 0 0 0;
+        justify-content: center;
+        width: 819.6px;
+        height: 400px;
+        display: flex;
+        align-items: center;
 
-.grilla header {
-    grid-area: header;
-    width: 600px;
-}
+        .grilla {
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            grid-template-columns: repeat(3, 33%);
+            grid-template-rows: repeat(2, 1fr);
+            height: 2fr;
+            width: 800px;
+            grid-template-areas:
+                "header header section"
+                "article aside aside";
 
-.grilla section {
-    grid-area: section;
-    width: 300px;
-}
+            header {
+                grid-area: header;
+                width: 600px;
 
-.grilla article {
-    grid-area: article;
-    width: 300px;
-}
+                img {
+                    width: 600px;
+                    height: 200px;
+                }
+            }
 
-.grilla aside {
-    grid-area: aside;
-    width: 600px;
-}
+            section {
+                grid-area: section;
+                width: 300px;
 
-.grilla header img {
-    width: 600px;
-    height: 200px;
-}
+                img {
+                    width: 300px;
+                    height: 200px;
+                }
+            }
 
-.grilla section img {
-    width: 300px;
-    height: 200px;
-}
+            article {
+                grid-area: article;
+                width: 300px;
 
-.grilla article img {
-    width: 300px;
-    height: 200px;
+                img {
+                    width: 300px;
+                    height: 200px;
+                }
+            }
 
-}
+            aside {
+                grid-area: aside;
+                width: 600px;
 
-.grilla aside img {
-    width: 560px;
-    height: 200px;
+                img {
+                    width: 560px;
+                    height: 200px;
+                }
+            }
+        }
+    }
 }
