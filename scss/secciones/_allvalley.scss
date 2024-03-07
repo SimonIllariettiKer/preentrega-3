@@ -1,98 +1,139 @@
-.main-all-valley {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: green;
-    margin-top: 75px;
-    margin-bottom: 75px;
-    height: 200px;
-
-    img {
-        height: 100px;
-        width: 200px;
+.header-all-valley {
+    .h1 {
+        color: white;
+        margin: 50px 0 50px 0;
+        text-align: center;
     }
 
-    .videos {
-        height: 100px;
-        width: 200px;
-    }
-}
-
-.div-torneo {
-    text-align: left;
-
-    .campeones-all-valley {
+    .img-all-valley {
+        // border: red solid 5px;
+        background-color: #000000c4;
         display: flex;
+        justify-content: space-between;
         align-items: center;
-        justify-content: center;
 
         img {
-            width: 100px;
-            height: 100px;
+            width: 500px;
+            height: 250px;
+            margin-right: 20px;
+            margin-left: 20px;
+        }
+
+        p {
+            color: white;
+            font-size: 20px;
         }
     }
 }
 
-.li-lawrence {
-    background-color: black;
-    border: 4px solid yellow;
-    width: 400px;
-    color: yellow;
+.main-all-valley {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10px;
-}
+    background-color: transparent;
+    margin-top: 75px;
+    margin-bottom: 75px;
+    height: 200px;
 
-.li-larusso {
-    border: 4px solid orange;
-    color: orange;
-    width: 400px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-}
+    margin: 15px;
 
-.li-xander {
-    background-color: blue;
-    border: 4px solid red;
-    width: 400px;
-    color: red;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-}
+    .videos {
+        background-color: #000000c4;
+        height: 175px;
+        width: 90%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        
 
-.li-diaz {
-    background-color: black;
-    border: 4px solid yellow;
-    width: 400px;
-    color: yellow;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-}
+        video {
+            width: 200px;
+            height: 150px;
+            margin: 20px;
+        }
+    }
 
-.li-hawk {
-    border: 4px solid orange;
-    color: orange;
-    width: 400px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-}
+img {
+        border: 10px red solid;
+        height: 100px;
+        width: 200px;
+    }
 
-.li-nichols {
-    background-color: black;
-    border: 4px solid yellow;
-    width: 400px;
-    color: yellow;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-}
+    .div-torneo {
+        text-align: left;
+
+        .campeones-all-valley {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+            img {
+                width: 100px;
+                height: 100px;
+            }
+        }
+    }
+
+    .li-lawrence {
+        background-color: black;
+        border: 4px solid yellow;
+        width: 400px;
+        color: yellow;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .li-larusso {
+        border: 4px solid orange;
+        color: orange;
+        width: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .li-xander {
+         background-color: blue;
+         border: 4px solid red;
+         width: 400px;
+         color: red;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         padding: 10px;
+     }
+
+     .li-diaz {
+         background-color: black;
+         border: 4px solid yellow;
+         width: 400px;
+         color: yellow;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         padding: 10px;
+     }
+
+     .li-hawk {
+         border: 4px solid orange;
+         color: orange;
+         width: 400px;
+         display: flex;
+         justify-content: center;
+     align-items: center;
+         padding: 10px;
+     }
+
+     .li-nichols {
+         background-color: black;
+         border: 4px solid yellow;
+         width: 400px;
+         color: yellow;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         padding: 10px;
+     }
