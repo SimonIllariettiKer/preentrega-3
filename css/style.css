@@ -1,0 +1,402 @@
+@font-face {
+  font-family: "barak";
+  src: url(../recursos-img/BELARAK.ttf); }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+h1 {
+  font-family: barak; }
+
+.navbar {
+  height: 110px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap; }
+  .navbar img {
+    height: 100px;
+    width: 100px;
+    margin: 10px; }
+  .navbar div {
+    justify-content: right; }
+  .navbar ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none; }
+    .navbar ul li {
+      width: 88px;
+      height: 30px;
+      background-color: orange;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 30px; }
+      .navbar ul li:hover {
+        background-color: #ffa6005d; }
+    .navbar ul a {
+      color: aliceblue;
+      text-decoration: none;
+      font-size: 15px; }
+      .navbar ul a:hover {
+        font-size: 25px;
+        color: black;
+        font-family: "barak"; }
+
+h1 {
+  margin: 50px 0 50px 0;
+  text-align: center; }
+
+.h1 {
+  background-color: orange;
+  color: white; }
+
+.header-index {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.img-principal-index {
+  width: 80%;
+  height: 600px;
+  overflow: hidden;
+  margin-top: 100px; }
+
+.main-index {
+  margin: 20px;
+  padding: 0 0 0 0;
+  justify-content: center;
+  width: 819.6px;
+  height: 400px;
+  display: flex;
+  align-items: center; }
+
+.sec-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  background-color: orange; }
+
+.grilla {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: repeat(3, 33%);
+  grid-template-rows: repeat(2, 1fr);
+  height: 2fr;
+  width: 800px;
+  grid-template-areas: "header header section" "article aside aside"; }
+
+.grilla header {
+  grid-area: header;
+  width: 600px; }
+
+.grilla section {
+  grid-area: section;
+  width: 300px; }
+
+.grilla article {
+  grid-area: article;
+  width: 300px; }
+
+.grilla aside {
+  grid-area: aside;
+  width: 600px; }
+
+.grilla header img {
+  width: 600px;
+  height: 200px; }
+
+.grilla section img {
+  width: 300px;
+  height: 200px; }
+
+.grilla article img {
+  width: 300px;
+  height: 200px; }
+
+.grilla aside img {
+  width: 560px;
+  height: 200px; }
+
+.main-all-valley {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: green;
+  margin-top: 75px;
+  margin-bottom: 75px;
+  height: 200px; }
+  .main-all-valley img {
+    height: 100px;
+    width: 200px; }
+  .main-all-valley .videos {
+    height: 100px;
+    width: 200px; }
+
+.div-torneo {
+  text-align: left; }
+  .div-torneo .campeones-all-valley {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    .div-torneo .campeones-all-valley img {
+      width: 100px;
+      height: 100px; }
+
+.li-lawrence {
+  background-color: black;
+  border: 4px solid yellow;
+  width: 400px;
+  color: yellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px; }
+
+.li-larusso {
+  border: 4px solid orange;
+  color: orange;
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px; }
+
+.li-xander {
+  background-color: blue;
+  border: 4px solid red;
+  width: 400px;
+  color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px; }
+
+.li-diaz {
+  background-color: black;
+  border: 4px solid yellow;
+  width: 400px;
+  color: yellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px; }
+
+.li-hawk {
+  border: 4px solid orange;
+  color: orange;
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px; }
+
+.li-nichols {
+  background-color: black;
+  border: 4px solid yellow;
+  width: 400px;
+  color: yellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px; }
+
+.main-personajes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center; }
+
+.grilla-personajes {
+  background-color: green;
+  display: flex;
+  flex-wrap: wrap;
+  /* grid-template-columns: repeat(5,1fr); */
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  /* margin: 15px; */
+  padding: 15px;
+  justify-content: center;
+  text-align: center; }
+
+.personajes-section {
+  width: 100%;
+  max-width: 400px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden; }
+
+.personajes-section img {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #ddd; }
+
+.accordion-button {
+  width: 100%;
+  text-align: left;
+  padding: 10px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+  border: none;
+  text-transform: uppercase;
+  font-weight: bold; }
+
+.grilla-personajes section {
+  margin-top: 15px;
+  margin-right: 15px;
+  margin-bottom: 200px;
+  margin-left: 15px;
+  /* espacio */
+  width: 200px;
+  height: 250px; }
+
+/* .grilla-personajes div{
+    margin-top: 15px;
+    margin-right: 15px;
+    margin-bottom: 200px;
+    margin-left: 15px;
+} */
+.grilla-personajes img {
+  width: 100px;
+  height: 100px;
+  margin-top: 13px; }
+
+.eagle-fang-theme {
+  background-color: red;
+  border: 3px solid black;
+  color: black;
+  width: 200px;
+  height: 200px;
+  margin: 15px 15px 15px 15px;
+  padding: 15px 15px 15px 15px; }
+
+.cobrakai-theme {
+  color: yellow;
+  background-color: black;
+  border: 3px solid yellow;
+  width: 200px;
+  height: 200px;
+  margin: 15px 15px 15px 15px;
+  padding: 15px 15px 15px 15px; }
+
+.miyagi-do-theme {
+  background-color: white;
+  color: orange;
+  border: 3px solid orange;
+  width: 200px;
+  height: 200px;
+  margin: 15px 15px 15px 15px;
+  padding: 15px 15px 15px 15px; }
+
+.nothing {
+  background-color: white;
+  border: solid 3px black;
+  color: black;
+  margin: 15px 15px 15px 15px;
+  padding: 15px 15px 15px 15px; }
+
+.main-dojos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; }
+
+.main-dojos section {
+  width: 100%;
+  margin-bottom: 20px; }
+
+.main-dojos h3 {
+  margin-top: 32px; }
+
+.main-dojos .section-cobrakai-dojo {
+  width: 30%;
+  height: 1000px;
+  margin: 20px;
+  text-align: center;
+  background-color: black;
+  color: yellow;
+  border: yellow 4px solid;
+  display: block;
+  justify-content: center; }
+
+.main-dojos .section-miyagi-do-dojo {
+  width: 30%;
+  height: 1000px;
+  margin: 20px;
+  text-align: center;
+  background-color: white;
+  color: orange;
+  border: orange 4px solid;
+  display: block;
+  justify-content: center; }
+
+.main-dojos .section-eagle-fang-dojo {
+  width: 30%;
+  height: 1000px;
+  margin: 20px;
+  text-align: center;
+  background-color: red;
+  color: black;
+  border: black 4px solid;
+  display: block;
+  justify-content: center; }
+
+.main-dojos .section-cobrakai-dojo img {
+  width: 150px;
+  height: 150px;
+  margin-top: 50px;
+  margin-bottom: 150px; }
+
+.main-dojos .section-miyagi-do-dojo img {
+  width: 150px;
+  height: 150px;
+  margin-top: 50px;
+  margin-bottom: 150px; }
+
+.main-dojos .section-eagle-fang-dojo img {
+  width: 150px;
+  height: 150px;
+  margin-top: 50px;
+  margin-bottom: 150px; }
+
+.ul-eaglefang li {
+  list-style: none; }
+
+.ul-cobrakai li {
+  list-style: none; }
+
+.ul-miyagido li {
+  list-style: none; }
+
+/* Rivalidades */
+.main-rivalidades {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px; }
+
+.main-rivalidades-grilla section {
+  background-color: #f2f2f2;
+  padding: 10px;
+  margin-bottom: 20px;
+  box-sizing: border-box; }
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  /* Centra la imagen */ }
+
+footer {
+  background-color: #deb308;
+  align-items: center;
+  text-align: center; }
+
+.img-footer {
+  width: 50px;
+  height: 50px; }
