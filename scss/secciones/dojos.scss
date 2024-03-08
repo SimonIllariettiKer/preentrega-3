@@ -2,106 +2,121 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-  }
+    align-items: center;
 
-  .main-dojos section {
-    width: 100%;
-    margin-bottom: 20px;
-  }
+    .h1 {
+        color: white;
+        margin: 50px 0 50px 0;
+        text-align: center;
+    }
 
-.main-dojos h3 {
-    margin-top: 32px;
-}
+    section {
+        width: 100%;
+        margin-bottom: 20px;
+    }
 
-.main-dojos .section-cobrakai-dojo {
-    width: 30%;
-    height: 1000px;
-    margin: 20px;
-    text-align: center;
-    background-color: black;
-    color: yellow;
-    border: yellow 4px solid;
-    display: block;
-    justify-content: center;
-}
+    .section-cobrakai-dojo {
+        width: 30%;
+        height: 1000px;
+        margin: 20px;
+        text-align: center;
+        background-color: black;
+        color: yellow;
+        border: yellow 4px solid;
+        display: block;
+        justify-content: center;
+    }
 
-.main-dojos .section-miyagi-do-dojo {
-    width: 30%;
-    height: 1000px;
-    margin: 20px;
-    text-align: center;
-    background-color: white;
-    color: orange;
-    border: orange 4px solid;
-    display: block;
-    justify-content: center;
-}
+    img {
+        width: 150px;
+        height: 150px;
+        margin-top: 50px;
+        margin-bottom: 150px;
+    }
 
-.main-dojos .section-eagle-fang-dojo {
-    width: 30%;
-    height: 1000px;
-    margin: 20px;
-    text-align: center;
-    background-color: red;
-    color: black;
-    border: black 4px solid;
-    display: block;
-    justify-content: center;
-}
+    h3 {
+        margin-top: 32px;
+    }
 
-.main-dojos .section-cobrakai-dojo img {
-    width: 150px;
-    height: 150px;
-    margin-top: 50px;
-    margin-bottom: 150px;
-}
+    li {
+        list-style: none;
+    }
 
-.main-dojos .section-miyagi-do-dojo img {
-    width: 150px;
-    height: 150px;
-    margin-top: 50px;
-    margin-bottom: 150px;
-}
 
-.main-dojos .section-eagle-fang-dojo img {
-    width: 150px;
-    height: 150px;
-    margin-top: 50px;
-    margin-bottom: 150px;
+    .section-miyagi-do-dojo {
+        width: 30%;
+        height: 1000px;
+        margin: 20px;
+        text-align: center;
+        background-color: white;
+        color: orange;
+        border: orange 4px solid;
+        display: block;
+        justify-content: center;
 
-}
+        img {
+            width: 150px;
+            height: 150px;
+            margin-top: 50px;
+            margin-bottom: 150px;
+        }
 
-.ul-eaglefang li {
-    list-style: none;
-}
+        h3 {
+            margin-top: 32px;
+        }
 
-.ul-cobrakai li {
-    list-style: none;
-}
+        li {
+            list-style: none;
+        }
+    }
+        .section-eagle-fang-dojo {
+            width: 30%;
+            height: 1000px;
+            margin: 20px;
+            text-align: center;
+            background-color: red;
+            color: black;
+            border: black 4px solid;
+            display: block;
+            justify-content: center;
 
-.ul-miyagido li {
-    list-style: none;
-}
+             img {
+                 width: 150px;
+                 height: 150px;
+                 margin-top: 50px;
+                 margin-bottom: 150px;
+             }
+
+            h3 {
+                margin-top: 32px;
+            }
+
+            li {
+                list-style: none;
+            }
+        }
+    }
+
 
 /* Rivalidades */
 
-.main-rivalidades {
-    max-width: 800px;
-    margin: 0 auto;
-    background-color: #fff;
-    padding: 20px;
-}
+//  .main-rivalidades {
+//      max-width: 800px;
+//      margin: 0 auto;
+//      background-color: #fff;
+//      padding: 20px;
+//  }
 
-.main-rivalidades-grilla section {
-    background-color: #f2f2f2;
-    padding: 10px;
-    margin-bottom: 20px;
-    box-sizing: border-box;
-}
+//  .main-rivalidades-grilla section {
+//      background-color: #f2f2f2;
+//      padding: 10px;
+//      margin-bottom: 20px;
+//      box-sizing: border-box;
+//  }
 
-img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 0 auto; /* Centra la imagen */
-}
+//  img {
+//      max-width: 100%;
+//      height: auto;
+//      display: block;
+//      margin: 0 auto;
+//      /* Centra la imagen */}
