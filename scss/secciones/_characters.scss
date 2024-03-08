@@ -1,21 +1,27 @@
+.h1{
+    color: white;
+    margin: 50px 0 50px 0;
+    text-align: center;
+}
+
 .main-personajes {
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
+    border: blue 7px solid;
+
+    .grilla-personajes {
+        display: flex;
+        flex-wrap: wrap;
+        grid-template-columns: 20% 20% 20% 20% 20%;
+        padding: 15px;
+        justify-content: center;
+        text-align: center;
+    }
 }
 
-.grilla-personajes {
-    background-color: green;
-    display: flex;
-    flex-wrap: wrap;
-    /* grid-template-columns: repeat(5,1fr); */
-    grid-template-columns: 20% 20% 20% 20% 20%;
-    /* margin: 15px; */
-    padding: 15px;
-    justify-content: center;
-    text-align: center;
-}
+
 
 .personajes-section{
     width: 100%;
