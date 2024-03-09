@@ -9,6 +9,48 @@
 h1 {
   font-family: barak; }
 
+@keyframes cobra-eagle {
+  0% {
+    background-color: black;
+    color: yellow;
+    border: yellow solid 4px; }
+  50% {
+    background-color: red;
+    color: black;
+    border: black solid 4px; }
+  100% {
+    background-color: black;
+    color: yellow;
+    border: yellow solid 4px; } }
+
+@keyframes miyagi-cobra {
+  0% {
+    background-color: white;
+    color: orange;
+    border: orange solid 4px; }
+  50% {
+    background-color: black;
+    color: yellow;
+    border: yellow solid 4px; }
+  100% {
+    background-color: white;
+    color: orange;
+    border: orange solid 4px; } }
+
+@keyframes cobra-miyagi {
+  0% {
+    background-color: black;
+    color: yellow;
+    border: yellow solid 4px; }
+  50% {
+    background-color: white;
+    color: orange;
+    border: orange solid 4px; }
+  100% {
+    background-color: black;
+    color: yellow;
+    border: yellow solid 4px; } }
+
 .navbar {
   height: 110px;
   display: flex;
@@ -299,7 +341,8 @@ body {
   width: 200px;
   height: 200px;
   margin: 15px;
-  padding: 15px; }
+  padding: 15px;
+  animation: cobra-eagle infinite 9s; }
 
 .cobrakai-theme {
   color: yellow;
@@ -325,6 +368,26 @@ body {
   color: black;
   margin: 15px;
   padding: 15px; }
+
+.miyagi-cobra-theme {
+  background-color: white;
+  color: orange;
+  border: 3px solid orange;
+  width: 200px;
+  height: 200px;
+  margin: 15px;
+  padding: 15px;
+  animation: miyagi-cobra infinite 9s; }
+
+.cobra-miyagi-theme {
+  background-color: white;
+  color: orange;
+  border: 3px solid orange;
+  width: 200px;
+  height: 200px;
+  margin: 15px;
+  padding: 15px;
+  animation: cobra-miyagi infinite 9s; }
 
 .main-dojos {
   display: flex;
